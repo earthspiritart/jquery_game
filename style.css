@@ -1,0 +1,18 @@
+h1 {
+  opacity: 1;
+  position: relative;
+}
+#main-container {
+  background-image: url('backdrop.png');
+  opacity: 0;
+  width: 610px;
+  height: 600px;
+  margin: 0 auto;
+}
+.row {
+  position: relative;
+  display: inline-block;
+}
+.hide {
+  opacity: 0;
+}
