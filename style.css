@@ -3,11 +3,11 @@ h1 {
   position: relative;
 }
 #main-container {
-  background-image: url('backdrop.png');
+  /*background-image: url('backdrop.png');*/
   opacity: 0;
   width: 610px;
   height: 600px;
-  margin: 0 auto;
+  position: absolute;
 }
 .row {
   position: relative;
@@ -15,4 +15,14 @@ h1 {
 }
 .hide {
   opacity: 0;
+}
+
+.back-container {
+  background-color: blue;
+  opacity: .1;
+  width: 610px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+
 }
